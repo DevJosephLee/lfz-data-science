@@ -1,8 +1,8 @@
 import React from 'react';
-import Home from './pages/home';
+import DataSciencePage from './pages/data-science';
 
 export default class App extends React.Component {
   render() {
-    return <Home />;
+    return <DataSciencePage />;
   }
 }
