@@ -5,10 +5,10 @@ import Technologies from '../components/technologies';
 
 export default function DataSciencePage(props) {
   return (
-    <div>
+    <>
       <Hero />
       <Essentials />
       <Technologies />
-    </div>
+    </>
   );
 }
