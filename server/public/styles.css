@@ -1,0 +1,70 @@
+a.ds-btn {
+  text-decoration: none;
+  padding: 10px 22px;
+}
+
+.ds-btn {
+  border-radius: 40px;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.ds-btn:hover {
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+.ds-btn.blue-btn {
+  background: linear-gradient(180deg, #3bbbba 0%, #1aa9dd 100%);
+  border: 5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.ds-btn.blue-btn:hover {
+  filter: brightness(1.25);
+}
+
+.ds-btn.white-outline-btn {
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.ds-btn.white-outline-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid #24aed3;
+  color: #23aed3;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.absolute-bottom {
+  position: absolute;
+  bottom: 35px;
+  right: 0;
+  left: 0;
+}
+
+.hero-main-head-text {
+  font-size: 4.5rem;
+}
+
+.hero-main-sub-text {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.hero-list-text {
+  font-size: 1.35rem;
+}
+
+.checkmark {
+  font-size: 1rem;
+  padding-bottom: 12px;
+}
