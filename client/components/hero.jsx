@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Hero(props) {
+export default function Hero() {
   return (
     <div className="position-relative">
       <img src="../../images/hero.png" className="w-100"></img>
