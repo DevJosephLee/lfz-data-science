@@ -1,6 +1,29 @@
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("../fonts/nexa_bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Nexa;
+  src: url("../fonts/nexa_light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  font-family: "nexa bold", sans-serif;
+}
+
+.paragraphs-lists {
+  font-family: Montserrat, sans-serif;
+}
+
 a.ds-btn {
   text-decoration: none;
   padding: 10px 22px;
+  font-family: "nexa bold", sans-serif;
 }
 
 .ds-btn {
@@ -56,15 +79,28 @@ a.ds-btn {
 }
 
 .hero-main-sub-text {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: lighter;
 }
 
-.hero-list-text {
+.hero-list-text,
+.essential-list-text {
   font-size: 1.35rem;
 }
 
 .checkmark {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-bottom: 12px;
+}
+
+.blue-bold-underline {
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #21aebf;
+  width: fit-content;
+}
+
+.no-margin {
+  margin: 0;
 }
