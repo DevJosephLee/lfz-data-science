@@ -16,6 +16,10 @@
   font-family: "nexa bold", sans-serif;
 }
 
+.nexa-light {
+  font-family: Nexa, sans-serif;
+}
+
 .paragraphs-lists {
   font-family: Montserrat, sans-serif;
 }
@@ -59,6 +63,7 @@ a.ds-btn {
   color: #23aed3;
 }
 
+/* fix css naming scheme in */
 .absolute {
   position: absolute;
   bottom: 0;
@@ -83,8 +88,7 @@ a.ds-btn {
   font-weight: lighter;
 }
 
-.hero-list-text,
-.essential-list-text {
+.list-text {
   font-size: 1.35rem;
 }
 
@@ -103,4 +107,29 @@ a.ds-btn {
 
 .no-margin {
   margin: 0;
+}
+
+.concepts-box {
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.bg-313c45 {
+  background-color: #313c45;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-45 {
+  width: 45%;
 }
